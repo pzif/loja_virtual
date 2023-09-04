@@ -1,3 +1,5 @@
+import { inicializarCarrinho } from "./src/menuCarrinho";
+
 const produto1 = {
     nome: "Jaqueta Branca",
     marca: "Zara",
@@ -84,3 +86,4 @@ for (const produtoCatalogo of catalogo) {
 
 }
  
+inicializarCarrinho();
